@@ -1,0 +1,14 @@
+div {
+    background-color: #BFD8D5;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+div p {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}

@@ -1,0 +1,20 @@
+.form-label {
+    color: black;
+}
+
+.btn {
+    background-color: #4f5b69;
+    border: none;
+    color: white;
+    padding: 12px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: #BFD8D5;
+}
