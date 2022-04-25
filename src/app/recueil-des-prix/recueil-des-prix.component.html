@@ -1,17 +1,31 @@
 <div style="background-color: #EEEEEE; height:100%; width: 925px; margin-left:300px; padding:10px;">
 
+    <label for="exampleDataList" class="form-label">Nombre d'années</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+<option value="1">
+</datalist>
+
+    <label for="exampleDataList" class="form-label">Provinces</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+<option value="Tanger - Tétouan - Al Hoceima">
+<option value="L'Oriental">
+<option value="Fès - Meknès">
+  <option value="Rabat - Salé - Kénitra">
+</datalist>
 
     <label for="exampleDataList" class="form-label">Secteur</label>
     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
     <datalist id="datalistOptions">
-  <option value="les secteurs existe">
-  </datalist>
+<option value="la liste des secteurs">
+</datalist>
 
-    <label for="exampleDataList" class="form-label">Phase</label>
+    <!-- <label for="exampleDataList" class="form-label">Phase</label>
     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
     <datalist id="datalistOptions">
-  <option value="les phase">
-  </datalist>
+<option value="les phase">
+</datalist>
 
     <label for="exampleDataList" class="form-label">Tache</label>
     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
@@ -29,23 +43,29 @@
     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
     <datalist id="les prix">
 <option value="San Francisco">
-</datalist>
+</datalist> -->
+
+
 
     <div style="text-align: center; margin-top:10px; margin-bottom:10px">
         <button class="btn"><i class="fa fa-search"></i> Chercher</button>
         <button class="btn"><i class="fa fa-download"></i> Exporter</button>
     </div>
+
     <div class="hscroll">
 
         <table class="table">
             <thead>
-                <th>Secteur</th>
+                <th>Code prix</th>
                 <th>Phase</th>
                 <th>Tache</th>
                 <th>Poste</th>
                 <th>Designation</th>
-                <th>Definition</th>
-                <th>Unite</th>
+                <th>Unité</th>
+                <th>Min</th>
+                <th>Moy</th>
+                <th>Max</th>
+                <th>Niveau</th>
             </thead>
             <tbody>
                 <tr>
@@ -53,6 +73,9 @@
                     <td data-label="Name">Dinesh</td>
                     <td data-label="Age">34</td>
                     <td data-label="Marks%">50%</td>
+                    <td data-label="Staus">Passed</td>
+                    <td data-label="Marks%">50%</td>
+                    <td data-label="Staus">Passed</td>
                     <td data-label="Staus">Passed</td>
                     <td data-label="Marks%">50%</td>
                     <td data-label="Staus">Passed</td>
@@ -66,6 +89,9 @@
                     <td data-label="Staus">Passed</td>
                     <td data-label="Marks%">70%</td>
                     <td data-label="Staus">Passed</td>
+                    <td data-label="Staus">Passed</td>
+                    <td data-label="Marks%">50%</td>
+                    <td data-label="Staus">Passed</td>
                 </tr>
 
                 <tr>
@@ -76,8 +102,10 @@
                     <td data-label="Staus">Passed</td>
                     <td data-label="Marks%">70%</td>
                     <td data-label="Staus">Passed</td>
+                    <td data-label="Staus">Passed</td>
+                    <td data-label="Marks%">50%</td>
+                    <td data-label="Staus">Passed</td>
                 </tr>
-
 
             </tbody>
         </table>

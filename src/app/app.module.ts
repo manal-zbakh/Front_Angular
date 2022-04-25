@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
+import { RecueilDesPrixComponent } from './recueil-des-prix/recueil-des-prix.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
     FooterComponent,
     HeaderComponent,
     ContentComponent,
-    SidenavbarComponent
+    SidenavbarComponent,
+    RecueilDesPrixComponent
   ],
   imports: [
     BrowserModule,

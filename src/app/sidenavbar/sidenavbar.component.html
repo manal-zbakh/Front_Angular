@@ -11,29 +11,30 @@
 
         <ul id="menu-content" class="menu-content collapse out">
 
-            <li data-toggle="collapse" data-target="#products" class="collapsed active">
-                <a href="#">  Recherche <span class="arrow"></span></a>
+            <li data-toggle="collapse" data-target="#products" class="collapsed activat">
+                <!-- <a href="#">  Recherche <span class="arrow"></span></a> -->
+                <a>  Recherche <span class="arrow"></span></a>
             </li>
             <ul class="sub-menu collapse" id="products">
-                <li class="active"><a href="#">Par secteur/mot clé </a></li>
+                <li class="activat"><a routerLink="recherche" routerLinkActive="active">Hiérarchique/Par mot clé </a></li>
 
             </ul>
 
             <li data-toggle="collapse" data-target="#service" class="collapsed">
-                <a href="#">Recueil des prix<span class="arrow"></span></a>
+                <a>Recueil des prix<span class="arrow"></span></a>
             </li>
             <ul class="sub-menu collapse" id="service">
-                <li><a href="#">Création</a></li>
-                <li><a href="#">Consultation</a></li>
+                <!-- <li class="activat"><a routerLink="recueil" routerLinkActive="active">Par secteur/mot clé</a></li> -->
+                <li class="activat"><a routerLink="recueil" routerLinkActive="active">Par secteur</a></li>
             </ul>
 
 
             <li data-toggle="collapse" data-target="#new" class="collapsed">
-                <a href="#">Bordereau estimatif <span class="arrow"></span></a>
+                <a>Bordereau estimatif <span class="arrow"></span></a>
             </li>
             <ul class="sub-menu collapse" id="new">
-                <li>New New 1</li>
-                <li>New New 2</li>
+                <li>Création</li>
+                <li>Consultation</li>
                 <li>New New 3</li>
             </ul>
 

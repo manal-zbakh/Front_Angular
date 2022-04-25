@@ -56,8 +56,8 @@
     float: right;
 }
 
-.nav-side-menu ul .active,
-.nav-side-menu li .active {
+.nav-side-menu ul .activat,
+.nav-side-menu li .activat {
     border-left: 3px solid #BFD8D5;
     background-color: #4f5b69;
 }
